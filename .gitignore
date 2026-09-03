@@ -1,0 +1,17 @@
+# data + credentials — never commit these
+data/
+*.csv
+kaggle.json
+.kaggle/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# generated reports — regenerate with `python run_pipeline.py`
+# (commit the REAL IEEE-CIS run's plots deliberately if you want them in the README)
+reports/*.png
+reports/summary.json
